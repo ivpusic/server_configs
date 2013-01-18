@@ -1,0 +1,13 @@
+logfile /var/log/ha-log
+logfacility local0
+
+keepalive 10ms
+warntime 100ms
+deadtime 200ms
+initdead 10
+
+bcast eth0
+udpport 696
+auto_failback on
+node server1
+node server2

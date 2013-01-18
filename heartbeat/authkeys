@@ -1,0 +1,2 @@
+auth 2 # or 3 md5
+2 sha1 test-ha
